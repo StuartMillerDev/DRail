@@ -1,0 +1,39 @@
+table{
+
+}
+
+thead{
+  background-color: #373F47
+}
+
+tbody:{
+  background-color: #AAABBC
+
+}
+
+td{
+
+
+}
+
+body{
+  background-image: linear-gradient(#373F47, #6C91C2, #C3C9E9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+li{
+padding: 5px;
+
+}
+
+li:checked{
+  background-color: #AAABBC
+}
+
+li:hover{
+  background-color: #AAABBC
+}
