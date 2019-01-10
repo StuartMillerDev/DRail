@@ -3,14 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>D-RAIL</title>
-
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Firebase Reference -->
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
-
-
-
     <!-- Local Style sheet -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -50,6 +45,8 @@
           </table>
         </div>
       </div>
+
+
     </div>
 
     <div class="container">
@@ -64,21 +61,22 @@
               <!-- Instruction text -->
                     <div class="card-body">
                         <ol>
-                          <li><input type="text" name="train_name" value="" placeholder="Train Name"></li>
-                          <li><input type="text" name="destination" value="" placeholder="Destination"></li>
-                          <li><input type="text" name="first_Train" value="" placeholder="First Train Time (HH:hh - Military Time)"></li>
-                          <li><input type="text" name="frequency" value="" placeholder="Frequency (Minutes)"></li>
+                          <li><input type="text" name="train_name" value="" placeholder="Train Name" id="1"></li>
+                          <li><input type="text" name="destination" value="" placeholder="Destination" id="2"></li>
+                          <li><input type="text" name="first_Train" value="" placeholder="First Train Time " id="3">HH:hh - Military Time</li>
+                          <li><input type="text" name="frequency" value="" placeholder="Frequency (Minutes)" id="4"></li>
                         </ol>
                     </div>
                     <div class="text-center">
                       <form class="" action="index.html" method="post">
-                        <button type="submit" name="button" class="btn btn-default" id="search">SUBMIT</button>
+                        <!-- <button type="submit" name="button" class="btn btn-default" id="submit">SUBMIT</button> -->
+                        <input class="btn btn-dark" type="submit" id="submit" value="Submit">
+                        <!-- <button type="button" class="btn btn-dark" id="submit">Submit</button> -->
                       </form>
                     </div>
                 </div>
               </div>
-
-      </div>
+            </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

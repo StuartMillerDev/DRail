@@ -27,7 +27,6 @@ body{
 
 li{
 padding: 5px;
-
 }
 
 li:checked{
@@ -35,5 +34,14 @@ li:checked{
 }
 
 li:hover{
+  transition: all 0.45s ease; 
   background-color: #AAABBC
+}
+
+
+#submit:hover{
+  transition-delay: 0.05s;
+background-color: #C3C9E9;
+color: #373F47;
+text-align: right;
 }
