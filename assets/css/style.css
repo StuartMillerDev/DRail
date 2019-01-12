@@ -34,7 +34,7 @@ li:checked{
 }
 
 li:hover{
-  transition: all 0.45s ease; 
+  transition: all 0.45s ease;
   background-color: #AAABBC
 }
 
@@ -44,4 +44,12 @@ li:hover{
 background-color: #C3C9E9;
 color: #373F47;
 text-align: right;
+}
+
+h5{
+    transition: all 0.45s ease;
+    background-color: #77B28C;
+}
+h6{
+  background-color: #B4654A
 }
