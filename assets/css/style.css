@@ -11,9 +11,13 @@ tbody:{
 
 }
 
-td{
+.delete{
+transition: all 0.45s ease;
 
-
+}
+.delete:hover{
+transition: all 0.45s ease;
+    background-color: #9B1D20
 }
 
 body{
