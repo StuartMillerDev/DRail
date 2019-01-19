@@ -46,6 +46,7 @@ $(".delete").click(function(){
 });
 
 $("#clear").click(function(){
+  event.preventDefault();
   //delete all rows
   console.log("CLEAR ALL ROWS");
   $("tbody").html("");
@@ -58,7 +59,7 @@ database.ref().on("child_removed",function(childSnapshot){
 
 //collect change from the database and add a row to the table
 database.ref().on("child_added", function(childSnapshot) {
-
+event.preventDefault();
   //database train object
   var name=childSnapshot.val().name;
   var destination=childSnapshot.val().destination;
